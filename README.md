@@ -91,3 +91,10 @@ This project focuses on **engineering correctness and explainability**, not just
 - FAISS is used for efficient similarity search.
 - Embeddings are normalized to enable cosine similarity.
 - Vector data and metadata are stored separately for scalability.
+
+
+## 🔍 Phase 4: Retrieval & Ranking
+- User queries are embedded using the same embedding model as document chunks.
+- FAISS is used to retrieve top-k semantically similar chunks.
+- A similarity threshold filters low-confidence matches.
+- Retrieved chunks preserve document and page traceability.
