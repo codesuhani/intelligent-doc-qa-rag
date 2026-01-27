@@ -77,3 +77,10 @@ This project focuses on **engineering correctness and explainability**, not just
 - Some PDFs with tables or complex layouts lose structural formatting.
 - Scanned/image-only PDFs are not supported in the current pipeline.
 - OCR-based extraction is planned as a future enhancement.
+
+
+## ✂️ Phase 2: Text Chunking
+- Documents are split into sentence-preserving, overlapping chunks.
+- Chunk size and overlap are configurable.
+- Metadata (document name, page number) is preserved for traceability.
+- This improves retrieval accuracy and reduces hallucination risk.
