@@ -1,0 +1,5 @@
+pymupdf
+tqdm
+sentence-transformers
+faiss-cpu
+requests
