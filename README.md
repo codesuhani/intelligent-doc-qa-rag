@@ -71,3 +71,9 @@ intelligent-doc-qa-rag/
 
 ## 📌 Note
 This project focuses on **engineering correctness and explainability**, not just library usage.
+
+## ⚠️ Phase 1 Notes & Limitations
+- Text is extracted page-wise to preserve document traceability.
+- Some PDFs with tables or complex layouts lose structural formatting.
+- Scanned/image-only PDFs are not supported in the current pipeline.
+- OCR-based extraction is planned as a future enhancement.
