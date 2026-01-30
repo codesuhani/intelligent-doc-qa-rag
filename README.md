@@ -98,3 +98,10 @@ This project focuses on **engineering correctness and explainability**, not just
 - FAISS is used to retrieve top-k semantically similar chunks.
 - A similarity threshold filters low-confidence matches.
 - Retrieved chunks preserve document and page traceability.
+
+
+## 🧠 Phase 5: Answer Generation (Open-Source RAG)
+- Uses Mistral 7B (open-source) via Ollama for local inference.
+- Retrieved document chunks are provided as the sole context to the LLM.
+- A strict prompt enforces grounded, citation-backed responses.
+- The system explicitly refuses to answer when context is insufficient, minimizing hallucinations.
