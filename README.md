@@ -52,10 +52,10 @@ LLM Answer Generation
 ## 🚧 Project Status
 ✅ Phase 0: Project Setup  
 ✅ Phase 1: Document Ingestion  
-⬜ Phase 2: Text Chunking  
-⬜ Phase 3: Embeddings  
-⬜ Phase 4: Retrieval  
-⬜ Phase 5: Answer Generation  
+✅ Phase 2: Text Chunking  
+✅ Phase 3: Embeddings  
+✅ Phase 4: Retrieval  
+✅ Phase 5: Answer Generation  
 
 ---
 
